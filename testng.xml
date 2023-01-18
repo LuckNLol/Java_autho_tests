@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+
+<!--    <test name="TestNG15.Test1">-->
+    <test name="TestRepeat17">
+
+        <classes>
+            <class name="TestRetry17.TestRepeat17"></class>
+        </classes>
+
+    </test>
+</suite>
+
+        <!--            <class name="TestNG15.Test2">-->
+        <!--                <methods>-->
+        <!--                    <include name="test2"/>-->
+        <!--                </methods>-->
+        <!--            </class>-->
+
+<!--<groups>-->
+<!--<run>-->
+<!--    <include name="smokeTest" />-->
+<!--</run>-->
+<!--</groups>-->
+
+        <!--    <parameter name="db" value="SQL"></parameter>-->
