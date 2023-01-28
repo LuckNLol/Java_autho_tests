@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class OpenXpath1 {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\HP\\WebDrivers\\chromedriver0.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\HP\\chromedriver\\chromedriver.exe");
         /* 1. указать путь до драйвера на жестком диске*/
         WebDriver driver = new ChromeDriver(); //2. создать новый драйвер
 

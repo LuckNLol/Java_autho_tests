@@ -8,7 +8,7 @@ import java.time.Duration;
 
 public class ActionsMethod7 {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\WebDrivers\\chromedriver.exe" );
+        //System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\WebDrivers\\chromedriver.exe" );
         WebDriver driver = new ChromeDriver();
 
  //       driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));

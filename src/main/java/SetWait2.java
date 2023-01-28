@@ -9,7 +9,7 @@ import java.time.Duration;
 
 public class SetWait2 {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\HP\\WebDrivers\\chromedriver.exe"); // 1. указать путь до драйвера на жестком диске
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\HP\\chromedriver\\chromedriver.exe"); // 1. указать путь до драйвера на жестком диске
         WebDriver driver = new ChromeDriver(); //2. создать новый драйвер
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5)); /*7. Неявное ожидание (5сек) отклика

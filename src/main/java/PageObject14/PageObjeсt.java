@@ -13,7 +13,7 @@ import java.time.Duration;
 
 public class PageObjeсt {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\WebDrivers\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\WebDrivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
